@@ -324,6 +324,7 @@ ul {
     border-radius: 50%;
     margin: 0 auto;
     z-index: -1;
+    overflow: hidden;
   }
   .ellipse.thick {
     top: 0px;
@@ -342,7 +343,7 @@ ul {
   .watchnow {
     position: absolute;
     top: 97%;
-    right: 260px;
+    right: 180px;
     transform: translateY(-50%);
     background: #FF1493;
     /* padding: 30px 180px 30px 30px; */
@@ -350,7 +351,7 @@ ul {
     margin-bottom: 10px;
   }
   .scrolldown {
-    left: -180px;
+    left: -160px;
     position: relative;
   }
   .overlay {
@@ -365,5 +366,8 @@ ul {
     font-weight: 600;
     cursor: pointer;
     padding-right: 10px;
+  }
+  .menu-links {
+    padding-top: 38px;
   }
 }
